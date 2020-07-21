@@ -75,11 +75,15 @@ h2 {
     text-align: justify;
 }
 .card-content button {
+    width: 100%;
     padding: 10px 18px;
     letter-spacing: 2px;
-    background-color: #f7d2a0;
+    background-color: #fbead3;
     border: none;
     border-radius: 6px;
+}
+.card-content button:hover {
+    background-color: #fae1bf;
 }
 /* Embed a video  */
 .embed-video {
@@ -92,5 +96,4 @@ h2 {
 }
 .video-container {
     text-align: center;
-    
 }
